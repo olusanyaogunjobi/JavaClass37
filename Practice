@@ -45,8 +45,8 @@ public class App {
 //What will this print?
         System.out.println(name);
 
-        String firstName = "Erik";
-        String lastName = " Svensson";
+        String firstName = "Sanya";
+        String lastName = " Ogunjobi";
         int Age = 42;
         String hobby = "Programming";
         String sentence = firstName + lastName + " is " + Age + " years old and likes " + hobby;
