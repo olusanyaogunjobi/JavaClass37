@@ -1,0 +1,22 @@
+package org.example;
+
+public class Car {
+    public static void main( String args[] )
+    {
+        String brand;
+        int regno;
+        short maxspeed;
+        String ownername;
+        String carcolour;
+
+        Car mercedes = new Car ();
+        brand = "Mercedes";
+        regno = 1234;
+        maxspeed = 250;
+        ownername = "Sanya Ogunjobi";
+        carcolour = "Blue";
+
+        System.out.println ("My Car is a " + carcolour + " " + brand + " " + regno + " " + "with maxspeed" + " " + maxspeed + " " + "Owner's name" + " " + ownername);
+        }
+    }
+
