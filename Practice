@@ -1,0 +1,73 @@
+package org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+    public static void main(String[] args) {
+    ystem.out.println("Hello World!");
+        int number1 = 1 + 2 + 3 + 4 + 5;
+        int number2 = 3 + 2 + 1 + 4;
+        boolean isEqual = number1 == number2;
+        System.out.println(isEqual);
+
+        int age = 7;
+        if (age >= 18) {
+            System.out.println("You can have a beer");
+        } else {
+            System.out.println("You are too small to drink a beer");
+        }
+        double num1 = 5, num2 = 7, result = 0;// Switch Statement for decision making
+        char operator = '?';
+        switch (operator) {
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '/':
+                result = num1 / num2;
+                break;
+            default:
+
+                System.out.println(operator + " is not supported");
+        }
+        System.out.println(result);
+
+        String name = "Erik";
+//Adding " Svensson" to the name String by calling the String method concat
+        name = name + " Svensson";
+//What will this print?
+        System.out.println(name);
+
+        String firstName = "Erik";
+        String lastName = " Svensson";
+        int Age = 42;
+        String hobby = "Programming";
+        String sentence = firstName + lastName + " is " + Age + " years old and likes " + hobby;
+        System.out.println(sentence);
+
+        String firstName2 = "Sanya";
+        String lastname2 = "Ogunjobi";
+        System.out.print(firstName2);
+        System.out.print(" ");
+        System.out.print(lastname2);
+        System.out.println();
+        System.out.println("--------------------------");
+        System.out.println(firstName2 + " " + lastname2);
+
+        double x1 = 7.3;
+        double x2 = 9.2;
+        double result2;
+        result2 = x1 + x2;
+        System.out.print(result2);
+
+
+        }
+
+    }
