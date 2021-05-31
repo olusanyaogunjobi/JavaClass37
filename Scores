@@ -1,0 +1,31 @@
+package org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+        System.out.println( "Hello World!" );
+
+        int Score = 56;
+        if (Score >= 65) {
+
+            System.out.println("Hurray , You passed !");
+        }
+else if (Score>=55 && Score<65){
+
+        System.out.println("You are almost there");
+
+        }
+
+else if (Score <55){
+
+        System.out.println("Sorry, You did not pass");
+    }
+
+    }
+}
